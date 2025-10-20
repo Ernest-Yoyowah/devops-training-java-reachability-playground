@@ -6,6 +6,7 @@ public class Unzipper {
 
         Butler butler = new Butler();
         butler.welcome();
+        // something small
         // https://app.snyk.io/vuln/SNYK-JAVA-ORGND4J-72550
         // should appear as Reachable
         ArchiveUtils.unzipFileTo("./malicious_file.zip", "./unzipped/");
